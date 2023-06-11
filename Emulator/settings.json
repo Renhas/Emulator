@@ -1,0 +1,29 @@
+{
+    "results_file_name": "container_data",
+    "number_of_containers": 10,
+    "start_time": "2023-06-06T09:10:00",
+    "max_shift": 10.0,
+    "step_size": 30.0,
+    "emulation_step_count": 20,
+    "interval": 35,
+    "parameters": [
+        {
+            "id": 1,
+            "name": "temperature",
+            "avg": -2.0,
+            "std_dev": 5.8
+        },
+        {
+            "id": 2,
+            "name": "humidity",
+            "avg": 30.0,
+            "std_dev": 15.7
+        },
+        {
+            "id": 3,
+            "name": "impact",
+            "avg": 2.0,
+            "std_dev": 1.5
+        }
+    ]
+}

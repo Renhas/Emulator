@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: sensor-manager
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5789/emulator_db
+    username: hasan
+    password: greatPASSWORD
+    hikari:
+      maximum-pool-size: 25
+
+kafka:
+  bootstrap-servers: localhost:9092
+  group-id: sensor-manager
+  sensor-topic: Sensors
+  container-topic: Containers
+  parameter-topic: Parameters
+
+app:
+  web-api-url: "/containers"
+  sensor-manager-url: "/files"
+  access-token: "beaut1fulT0ken"
+
+server:
+  port: 8080
